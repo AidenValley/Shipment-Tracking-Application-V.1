@@ -1,7 +1,4 @@
 //querySelector
+const options = document.querySelector('hamburger-menu');
+console.log(options);
 
-const trackingSite = document.querySelector('carrier-images');
-
-trackingSite.addEventListener('click', onClick = () => {
-  
-})
