@@ -1,0 +1,16 @@
+body {
+  
+}
+.entire-page {
+  text-align: center;
+  font-size: 40px;
+}
+.content-wrap {
+  height: 500px;
+  border-style: solid;
+  cursor: pointer;
+}
+.main-content {
+  margin-top: 180px;
+  text-align: center;
+}
