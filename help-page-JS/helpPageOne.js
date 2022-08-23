@@ -1,6 +1,8 @@
-//querySelector
+//Global variables
 const billOfLading = document.getElementById('content');
-const BOLDefinition = ['Bill of Lading: A legally binding document between a shipper and carrier that details all the information needed to procees a frieght shipment']
+const BOLDefinition = ['Bill of Lading: A legally binding document between a shipper and carrier that details all the information needed to procees a freight shipment']
+const next = document.getElementById('nextButton');
+const home = document.getElementById('homeButton');
 
 billOfLading.addEventListener('click', (e) => {
   // statement that explains when a content is clicked, changet the text content to Bill of Lading information.
@@ -10,6 +12,13 @@ billOfLading.addEventListener('click', (e) => {
   //   } else {
   //     e.target.textContent = "Click Me"; 
   //   }
-  
+})
+
+next.addEventListener('click', (e) => {
+  location.href = "../HELP-PAGE/helpPageTwo.html";
+})
+
+home.addEventListener('click', (e) => {
+  location.href = "../homePage.html";
 })
 
