@@ -12,13 +12,13 @@ billOfLading.addEventListener('click', (e) => {
   //   } else {
   //     e.target.textContent = "Click Me"; 
   //   }
-})
+});
 
 next.addEventListener('click', (e) => {
   location.href = "../HELP-PAGE/helpPageTwo.html";
-})
+});
 
 home.addEventListener('click', (e) => {
   location.href = "../homePage.html";
-})
+});
 
