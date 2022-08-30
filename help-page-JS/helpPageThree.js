@@ -1,8 +1,6 @@
 //Global Variables
+const SCACList = ['HDMU1234567890', 'CMDUW154855233', 'COSU987514552'];
 const masterBill = document.getElementById('content');
-const masterBillDef = ['A Legal Binding Document that represents the contract of carriage between the shipper and carrier', 
-'If you are the Buyer or/ Consignee, you must request this document to either the shipper or carrier',
-'Remember, Master Bill of Lading(MBL) is issued by the CARRIER'];
 const next = document.getElementById('nextButton');
 const home = document.getElementById('homeButton');
 const back = document.getElementById('backButton');
@@ -10,12 +8,19 @@ const back = document.getElementById('backButton');
 
 masterBill.addEventListener('click', (e) => {
   // statement that explains when a content is clicked, changet the text content to Bill of Lading information.
-  (e.target.textContent === 'Click Me') ? e.target.textContent = masterBillDef : e.target.textContent = "Click Me"
+  for(let i= 0; i < SCACList.length; i++) {
+    if(e.target.textContent === 'Click Me'){
+      e.target.textContent = SCACList[i]; 
+      } else {
+        e.target.textContent = "Click Me"; 
+      }
+  };
+ 
 });
 
 
 back.addEventListener('click', (e) => {
-  location.href = "../HELP-PAGE/helpPageOne.html";
+  location.href = "../HELP-PAGE/helpPageTwo.html";
 });
 next.addEventListener('click', (e) => {
   location.href = "../HELP-PAGE/helpPageThree.html";
@@ -23,4 +28,3 @@ next.addEventListener('click', (e) => {
 home.addEventListener('click', (e) => {
   location.href = "../homePage.html";
 });
-
