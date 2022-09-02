@@ -21,6 +21,6 @@ next.addEventListener('click', (e) => {
   location.href = "../help-page-html/helpPageThree.html";
 });
 home.addEventListener('click', (e) => {
-  location.href = "../homePage.html";
+  location.href = "../index.html";
 });
 

@@ -19,6 +19,6 @@ next.addEventListener('click', (e) => {
 });
 
 home.addEventListener('click', (e) => {
-  location.href = "../homePage.html";
+  location.href = "../index.html";
 });
 
