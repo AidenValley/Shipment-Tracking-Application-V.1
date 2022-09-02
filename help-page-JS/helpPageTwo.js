@@ -15,10 +15,10 @@ masterBill.addEventListener('click', (e) => {
 
 
 back.addEventListener('click', (e) => {
-  location.href = "../HELP-PAGE/helpPageOne.html";
+  location.href = "../help-page-html/helpPageOne.html";
 });
 next.addEventListener('click', (e) => {
-  location.href = "../HELP-PAGE/helpPageThree.html";
+  location.href = "../help-page-html/helpPageThree.html";
 });
 home.addEventListener('click', (e) => {
   location.href = "../homePage.html";

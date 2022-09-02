@@ -15,7 +15,7 @@ billOfLading.addEventListener('click', (e) => {
 });
 
 next.addEventListener('click', (e) => {
-  location.href = "../HELP-PAGE/helpPageTwo.html";
+  location.href = "../help-page-html/helpPageTwo.html";
 });
 
 home.addEventListener('click', (e) => {
