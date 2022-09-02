@@ -10,7 +10,7 @@ masterBill.addEventListener('click', (e) => {
   // statement that explains when a content is clicked, change the text content to Bill of Lading information.
   SCACLists.forEach(SCACList => {
     let ascendSCACList = SCACLists.sort((a, b) => a > b ? 1 : -1);
-    console.log(ascendSCACList);
+    // console.log(ascendSCACList);
     masterBill.textContent === "Click Me" ? masterBill.innerHTML = ascendSCACList.join("<br>") : masterBill.textContent = "Click Me"
   });
 });
@@ -20,7 +20,7 @@ back.addEventListener('click', (e) => {
   location.href = "../help-page-html/helpPageTwo.html";
 });
 next.addEventListener('click', (e) => {
-  // location.href = "../help-page-html/helpPageThree.html";
+  location.href = "../help-page-html/helpPageFour.html";
 });
 home.addEventListener('click', (e) => {
   location.href = "../index.html";
