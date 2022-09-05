@@ -1,0 +1,24 @@
+{
+  "name": "shipment-tracking-application-v.1",
+  "version": "1.0.0",
+  "description": "This shipment tracking application intends to provide basic guidelines how and where to track your ordered cargo/shipment from overseas based on Master Bill of Lading numbers.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./stylesheetsCSS/homeStyle.css",
+    "watch": "tailwindcss -i ./input.css -o ./stylesheetsCSS/homeStyle.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AidenValley/Shipment-Tracking-Application-V.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AidenValley/Shipment-Tracking-Application-V.1/issues"
+  },
+  "homepage": "https://github.com/AidenValley/Shipment-Tracking-Application-V.1#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

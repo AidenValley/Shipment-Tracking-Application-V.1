@@ -12,3 +12,10 @@ This shipment tracking application intends to provide basic guidelines how and w
 
 ## PseudoCode structure + Application Infrasture
 
+
+
+## Technologies Used
+
+- HTML5, CSS, JavaScript, TailwindCSS
+  -TailwindCSS - npm i -D tailwindcss, npx tailwindcss init
+  npm run watch

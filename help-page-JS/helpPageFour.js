@@ -10,11 +10,6 @@ document.querySelectorAll('img').forEach((item) => {
   });
 });
 
-
-// masterBill.addEventListener('click', (e) => {
-//   (e.target.textContent === 'Click Me') ? e.target.textContent= img: e.target.textContent = "Click Me"
-// });
-
 back.addEventListener('click', (e) => {
   location.href = "../help-page-html/helpPageThree.html";
 });
