@@ -563,10 +563,6 @@ video {
   right: 0px;
 }
 
-.float-left {
-  float: left;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -575,92 +571,36 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
+.mr-20 {
+  margin-right: 5rem;
 }
 
 .mr-10 {
   margin-right: 2.5rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mr-5 {
   margin-right: 1.25rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
+.ml-12 {
+  margin-left: 3rem;
 }
 
 .mr-12 {
   margin-right: 3rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
-.mr-40 {
-  margin-right: 10rem;
-}
-
-.ml-28 {
-  margin-left: 7rem;
-}
-
-.mr-32 {
-  margin-right: 8rem;
-}
-
-.mr-14 {
-  margin-right: 3.5rem;
-}
-
-.mr-36 {
-  margin-right: 9rem;
+.mr-24 {
+  margin-right: 6rem;
 }
 
 .mr-28 {
   margin-right: 7rem;
-}
-
-.ml-32 {
-  margin-left: 8rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.ml-48 {
-  margin-left: 12rem;
-}
-
-.ml-52 {
-  margin-left: 13rem;
-}
-
-.ml-72 {
-  margin-left: 18rem;
-}
-
-.mr-24 {
-  margin-right: 6rem;
 }
 
 .flex {
@@ -677,10 +617,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .w-80 {
@@ -729,47 +665,13 @@ video {
   border-style: solid;
 }
 
-.border-b-zinc-800 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(39 39 42 / var(--tw-border-opacity));
-}
-
-.border-b-amber-800 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(146 64 14 / var(--tw-border-opacity));
-}
-
-.bg-amber-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 211 238 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 145 178 / var(--tw-bg-opacity));
-}
-
 .bg-cyan-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(6 182 212 / var(--tw-bg-opacity));
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .py-4 {
@@ -785,11 +687,6 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .py-20 {
@@ -814,11 +711,6 @@ video {
 .hover\:bg-blue-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-tb {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
