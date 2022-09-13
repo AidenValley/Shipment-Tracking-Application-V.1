@@ -13,6 +13,10 @@ module.exports = {
       'Fjalla': ['Fjalla One'],
     },
     extend: {
+      padding: {
+        '1/3': '33.33333%',
+        '2/3': '66.66667%',
+      },
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
         brightRedLight: 'hsl(12, 88%, 69%)',
